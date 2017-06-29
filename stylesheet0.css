@@ -1,0 +1,97 @@
+/*
+ InvesTrax Style Sheet
+
+ Colors
+ Navy   : #000066 (00/00/102)
+ LtBlue : #1640FF (22/64/255)
+ Gold   : #FDB415 (253/180/21)
+ Black  : #000000
+ White  : #FFFFFF
+*/
+
+body { 
+ margin: 0;
+ padding: 0;
+ font-family: Verdana, arial, sans-serif;
+ font-size: 13px;
+ font-weight: normal;
+ color: #000;
+}
+
+pre
+{
+border-right: #646464 1px solid;
+padding-right: 0.5em;
+border-top: #646464 1px solid;
+padding-top: 0.5em;
+border-left: #646464 1px solid;
+padding-left: 0.5em;
+border-bottom: #646464 1px solid;
+padding-bottom: 0.5em;
+margin-left: 1em;
+margin-right: 1em;
+white-space: pre;
+background-color: #e6e6e6;
+color: black;
+wrap:yes;
+}
+
+#container { 
+ margin-left: auto;
+ margin-right: auto;
+ width: 900px;
+ height: auto;
+ background: #FDB415;
+}
+
+#logodiv { 
+ background: url(images/OpenEaagles11.png) no-repeat;
+ background-color: #000000;
+ height: 136px;
+}
+
+#nav { 
+ float: left;
+ width: 130px;
+ border: 0;
+ line-height: 20px;
+ color: #1640FF;
+}
+#nav br {line-height: 6px; }
+#nav ul { list-style: none; margin: 0; padding: 0; margin-left: 10px;}
+#nav a { text-decoration: none; color: #1640FF; font-weight: bold; }
+#nav a:hover { text-decoration: underline; color: #1640FF; color: red; } 
+#nav ul li a { text-decoration: none; color: #1640FF; font-size: 13px;}
+#nav ul li ul li a { text-decoration: none; color: #1640FF; font-size: 11px; line-height: 14px;}
+#nav ul li a:hover { text-decoration: underline; color: red; } 
+#nav p,h1,h2,h3,h4,h5,h6 {margin-left: 10px;}
+
+#main {
+ margin-left: 130px;
+ padding: 13px;
+ width: 850;
+ background: #FFFFFF;
+
+}
+#main ul { margin: 0; padding: 0; margin-left: 45px; }
+#main ol {position: relative; margin-left: 45px;}
+#main h1 { 
+ display: block;
+ background: #FDB415;
+ font-size: 16px; 
+ font-weight: bolder; 
+ color: #000066;
+ line-height: 22px;
+}
+#main img { 
+ padding: 10px;
+}
+#main img.l { padding: 10px; }
+#main p, ol, ul, h1, h2, h3, h4, h5, h6 { margin: 10px; }
+#main h2 { font-size: 22px; font-weight: bold; padding: 0; margin-bottom: 0; color: #000066;}
+#main h3 { font-size: 18px; font-weight: bold; padding: 0; margin-bottom: 0; color: #000066;}
+#main h4 { font-size: 14px; color: #000066; }
+#main h5 { font-size: 13px; margin-bottom: -5px; color: #000066; }
+#main hr { width: 90%; text-align: center;}
+#main a { text-decoration: none; color: #1640FF; font-weight: bold; }
+#main a:hover { text-decoration: underline; color: #1640FF; color: red; } 
